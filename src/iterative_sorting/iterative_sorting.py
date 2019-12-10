@@ -13,14 +13,8 @@ def selection_sort( arr ):
         if smallest_index != i:
             arr[smallest_index], arr[i] = arr[i], arr[smallest_index]
 
-    return arr
-
-
 
         # TO-DO: swap
-
-
-
 
     return arr
 
